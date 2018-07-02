@@ -24,7 +24,7 @@
     height: 100px;
     padding: 20px;
     margin: 30px 15px 30px 15px;
-   
+      
 }
 
 .blue{
@@ -32,18 +32,21 @@
     width: 140px;
     height: 140px;
     margin: 30px 15px 30px 15px;
-    
+    background-color: darkgray;
 }
 
 .blue img {
     width: 140px;
     height: 140px;
 }
+
+
+
+
 .green{
     float: left;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    width: 140px;
+    height: 140px;
     margin: 30px 15px 30px 15px;
 }
 
