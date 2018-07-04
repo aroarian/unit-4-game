@@ -34,8 +34,6 @@ function startGame() {
     userGuess = userGuess + red;
     parseInt(userGuess);
     $(".dispGuess").html(userGuess);
-    // $(".test").html(userGuess);
-    console.log($(".test"));
     console.log("userguess " + userGuess);
   })
 
