@@ -17,7 +17,7 @@
     
 }
 
-.red{
+.crystal{
     background-color: darkgray;
     float: left;
     width: 140px;
@@ -25,49 +25,11 @@
     margin: 30px 15px 30px 15px;
       
 }
-.red img {
+.crystal img {
     width: 140px;
     height: 140px;
 }
 
-.blue{
-    float: left;
-    width: 140px;
-    height: 140px;
-    margin: 30px 15px 30px 15px;
-    background-color: darkgray;
-}
-
-.blue img {
-    width: 140px;
-    height: 140px;
-}
-
-.green{
-    float: left;
-    width: 140px;
-    height: 140px;
-    margin: 30px 15px 30px 15px;
-}
-
-.green img{
-    width: 140px;
-    height: 140px;
-}
-.yellow{
-    background-color: darkgray;
-    float: left;
-    width: 140px;
-    height: 140px;
-    margin: 30px 15px 30px 15px;
-    
-}
-
-.yellow img{
-    width: 140px;
-    height: 140px;
-   
-}
 
 .scoreRow {
     height: auto;
