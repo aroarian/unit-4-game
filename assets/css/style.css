@@ -17,11 +17,27 @@ body {
   box-shadow: inset 0px 0px 20px #000000;
 }
 
+.top {
+  float: left;
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 300px;
+  height: 150px;
+}
+
+.bottom{
+  float: left;
+  margin-top: 30px;
+  width: 45%;
+  height: 150px;
+}
 .crystals {
   margin-left: auto;
   margin-right: auto;
   height: 200px;
-  width: 700px;
+  width: 656px;
+  padding-left: 60px;
+  
 }
 
 .crystal {
@@ -29,7 +45,7 @@ body {
   float: left;
   width: 140px;
   height: 140px;
-  margin: 30px 15px 30px 15px;
+  
 }
 
 .crystal img {
@@ -39,6 +55,7 @@ body {
 }
 
 #red {
+  margin-right: 15px;
   background-image: url(../images/red.jpg);
   background-size: 140px 140px;
 }
@@ -49,6 +66,7 @@ body {
 }
 
 #blue {
+  margin-right: 15px;
   background-image: url(../images/blue.jpg);
   background-size: 140px 140px;
 }
@@ -270,17 +288,40 @@ body {
     min-height: 75px;
   }
 
-  .crystals {
-    width: 90%;
+  .top {
+    float: none;
+    width: 225px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 5px;
+   height: 105px;
   }
-
+  
+  .bottom{
+    float: none;
+    margin-top: 10px;
+    width: 225px;
+    margin-right: auto;
+    margin-left:auto;
+    height: 105px;
+  }
+  
   .crystal {
     width: 100px;
     height: 100px;
   }
+
+  .crystals {
+    height: 250px;
+    width: 50%;
+    padding-left: 0;
+    padding-top: 5px;
+    
+}
   
   #red {
-    margin-left: 11%;
+    
     background-size: 100px 100px;
   }
   
@@ -297,12 +338,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 640px) {
-    .crystals {
-        height: 250px;
-    }
-}
-
 
 @media only screen and (max-width: 545px) {
   .winP {
@@ -312,9 +347,49 @@ body {
   .lossP {
     font-size: 10px;
   }
+ 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 365px) {
+.scores{
+  min-height: 180px;
+}
+
+.score{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wins{
+  margin-top: 20px;
+  min-height: 60px;
+}
+
+.losses{
+  min-height: 60px;
+}
+
+.guess{
+  height: 65px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.dispNum{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dispTotal{
+  padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.random{
+  height: 65px;
+  margin-top: 15px;
+}
+  
   .winP {
     font-size: 8px;
   }
@@ -322,4 +397,28 @@ body {
   .lossP {
     font-size: 8px;
   }
+
+  .crystal {
+    width: 80px;
+    height: 80px;
+  }
+  
+  #red {
+    background-size: 80px 80px;
+    
+  }
+  
+  #green {
+    background-size: 80px 80px;
+  }
+  
+  #blue {
+    background-size: 80px 80px;
+    
+  }
+  
+  #yellow {
+    background-size: 80px 80px;
+  }
 }
+
