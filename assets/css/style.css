@@ -1,6 +1,7 @@
 body {
   background-color: rgb(69, 143, 204);
 }
+
 .title {
   width: 100%;
   padding: 30px 0px 30px 0px;
@@ -25,19 +26,19 @@ body {
   height: 150px;
 }
 
-.bottom{
+.bottom {
   float: left;
   margin-top: 30px;
   width: 45%;
   height: 150px;
 }
+
 .crystals {
   margin-left: auto;
   margin-right: auto;
   height: 200px;
   width: 656px;
   padding-left: 60px;
-  
 }
 
 .crystal {
@@ -45,7 +46,6 @@ body {
   float: left;
   width: 140px;
   height: 140px;
-  
 }
 
 .crystal img {
@@ -108,8 +108,8 @@ body {
   background-color: white;
   margin: 20px 25px 20px 6%;
   box-shadow: 1px 1px 0px rgb(19, 68, 114), 2px 2px 0px rgb(19, 68, 114),
-    3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
-    5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
+              3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
+              5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
   font-family: "Bungee", cursive;
   font-size: 30px;
   color: rgb(19, 68, 114);
@@ -129,8 +129,8 @@ body {
   margin: 20px 0 20px 2%;
   background-color: white;
   box-shadow: 1px 1px 0px rgb(19, 68, 114), 2px 2px 0px rgb(19, 68, 114),
-    3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
-    5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
+              3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
+              5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
   font-family: "Bungee", cursive;
   font-size: 30px;
   color: rgb(19, 68, 114);
@@ -160,8 +160,8 @@ body {
   width: 100%;
   background-color: white;
   box-shadow: 1px 1px 0px rgb(19, 68, 114), 2px 2px 0px rgb(19, 68, 114),
-    3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
-    5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
+              3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
+              5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
   font-family: "Bungee", cursive;
   color: rgb(19, 68, 114);
   font-size: 20px;
@@ -181,8 +181,8 @@ body {
   width: 100%;
   background-color: white;
   box-shadow: 1px 1px 0px rgb(19, 68, 114), 2px 2px 0px rgb(19, 68, 114),
-    3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
-    5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
+              3px 3px 0px rgb(19, 68, 114), 4px 4px 0px rgb(19, 68, 114),
+              5px 5px 0px rgb(19, 68, 114), 6px 6px 0px rgb(19, 68, 114);
   font-family: "Bungee", cursive;
   color: rgb(19, 68, 114);
   font-size: 20px;
@@ -230,6 +230,7 @@ body {
   .score {
     margin-left: 0%;
   }
+
   .dispNum {
     font-size: 20px;
   }
@@ -237,6 +238,7 @@ body {
   .dispTotal {
     font-size: 20px;
   }
+
   .winP {
     font-size: 15px;
   }
@@ -258,6 +260,7 @@ body {
   .title {
     font-size: 35px;
   }
+
   .numbers {
     width: 60%;
     margin-right: 8%;
@@ -293,20 +296,20 @@ body {
     width: 225px;
     margin-top: 15px;
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
     margin-bottom: 5px;
-   height: 105px;
+    height: 105px;
   }
-  
-  .bottom{
+
+  .bottom {
     float: none;
     margin-top: 10px;
     width: 225px;
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
     height: 105px;
   }
-  
+
   .crystal {
     width: 100px;
     height: 100px;
@@ -317,27 +320,24 @@ body {
     width: 50%;
     padding-left: 0;
     padding-top: 5px;
-    
-}
-  
+  }
+
   #red {
-    
     background-size: 100px 100px;
   }
-  
+
   #green {
     background-size: 100px 100px;
   }
-  
+
   #blue {
     background-size: 100px 100px;
   }
-  
+
   #yellow {
     background-size: 100px 100px;
   }
 }
-
 
 @media only screen and (max-width: 545px) {
   .winP {
@@ -347,49 +347,48 @@ body {
   .lossP {
     font-size: 10px;
   }
- 
 }
 
 @media only screen and (max-width: 365px) {
-.scores{
-  min-height: 180px;
-}
+  .scores {
+    min-height: 180px;
+  }
 
-.score{
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  .score {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-.wins{
-  margin-top: 20px;
-  min-height: 60px;
-}
+  .wins {
+    margin-top: 20px;
+    min-height: 60px;
+  }
 
-.losses{
-  min-height: 60px;
-}
+  .losses {
+    min-height: 60px;
+  }
 
-.guess{
-  height: 65px;
-  margin-bottom: 0;
-  margin-top: 15px;
-}
+  .guess {
+    height: 65px;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
 
-.dispNum{
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.dispTotal{
-  padding-top: 5px;
+  .dispNum {
+    padding-top: 5px;
     padding-bottom: 5px;
-}
+  }
 
-.random{
-  height: 65px;
-  margin-top: 15px;
-}
-  
+  .dispTotal {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .random {
+    height: 65px;
+    margin-top: 15px;
+  }
+
   .winP {
     font-size: 8px;
   }
@@ -402,23 +401,20 @@ body {
     width: 80px;
     height: 80px;
   }
-  
+
   #red {
     background-size: 80px 80px;
-    
   }
-  
+
   #green {
     background-size: 80px 80px;
   }
-  
+
   #blue {
     background-size: 80px 80px;
-    
   }
-  
+
   #yellow {
     background-size: 80px 80px;
   }
 }
-
